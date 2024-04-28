@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,11 +6,12 @@
     font-family: "Roboto", sans-serif;
 }
 
-img{
+img {
     width: 300px;
     margin-top: 20px;
 }
-body{
+
+body {
     background: rgb(0, 0, 0);
     display: flex;
     align-items: center;
@@ -19,7 +20,7 @@ body{
     min-height: 100vh;
 }
 
-h3{
+h3 {
     font-style: normal;
     letter-spacing: 2px;
     font-weight: 300;
@@ -29,10 +30,10 @@ h3{
     margin-top: 65px;
     margin-bottom: 20px;
     text-align: center;
-    
+
 }
 
-input{
+input {
     background: rgba(255, 255, 255, 0.25);
     border-radius: 14px;
     border: 1px solid rgba(255, 255, 255, 0.2);
@@ -46,15 +47,15 @@ input{
     text-align: center;
     color: #ffffff;
     opacity: 0.7;
-  
+
 }
 
-.input-min{
+.input-min {
     margin-right: 60px;
 }
 
 
-button{
+button {
     background: #10790c;
     box-shadow: 0px 10px 8px 0px #01ff1659;
     display: block;
@@ -62,32 +63,118 @@ button{
     width: 270px;
     height: 55px;
     border-radius: 14px;
-    margin: 30px auto ;
+    margin: 30px auto;
     font-size: 36px;
     font-weight: 700;
     font-size: 36px;
     color: #ffffff;
     cursor: pointer;
-  
+
 }
-button:hover{
+
+button:hover {
     opacity: 0.9;
 }
-button:active{
+
+button:active {
     opacity: 0.8;
 }
 
-#resultado-final, h1{
+#resultado-final,
+h1 {
     width: 200px;
     display: flex;
     font-size: 50px;
     justify-content: center;
     text-align: center;
     margin: 2px auto;
-    text-align: center;
     color: #ffffff;
     box-shadow: 0px 18px 40px 0px #01ff1659;
     border-radius: 90%;
-    
-    
+
 }
+
+@media screen and (max-width: 700px) {
+    input {
+        height: 30;
+        width: 200px;
+        border-radius: 14px;
+        margin-top: 10px;
+        font-weight: 500px;
+        font-size: 20px;
+    }
+
+    button {
+        width: 230px;
+        height: 45px;
+        display: block;
+        margin: 20px auto;
+        font-size: 20px;
+    }
+
+
+
+    @media screen and (max-width: 500px) {
+        input {
+            height: 30px;
+            width: 130px;
+            border-radius: 10px;
+            margin-top: 10px;
+            font-weight: 300px;
+            font-size: 13px;
+        }
+
+        button {
+            width: 130px;
+            height: 38px;
+            display: block;
+            margin: 20px auto;
+            font-size: 20px;
+        }
+
+        h3 {
+            letter-spacing: 1px;
+            font-size: 25px;
+            line-height: 30px;
+
+        }
+    }
+
+    @media screen and (max-width: 350px) {
+
+        img {
+            width: 150px;
+        }
+
+        input {
+            height: 30px;
+            width: 100px;
+            border-radius: 10px;
+            margin-top: 10px;
+            font-weight: 200px;
+            font-size: 10px;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .input-min {
+            margin-right: 30px;
+        }
+
+        button {
+            width: 120px;
+            height: 34px;
+            display: block;
+            margin: 20px auto;
+            font-size: 20px;
+            box-shadow: 0px 15px 20px 0px #01ff1659;
+        }
+
+        h3 {
+            letter-spacing: 1px;
+            font-size: 20px;
+            line-height: 25px;
+            margin-top: 20px;
+
+        }
+    }

@@ -177,7 +177,7 @@ h1 {
             border-radius: 10px;
             margin-top: 10px;
             font-size: 9px;
-            flex-direction: column-reverse;
+            text-align: start;
         }
 
         .input-min, .input-max {

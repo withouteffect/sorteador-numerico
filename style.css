@@ -110,6 +110,7 @@ h1 {
         margin-left: 20px;
         font-weight: 500px;
         font-size: 20px;
+        text-align: start;
     }
 
     button {
@@ -136,10 +137,11 @@ h1 {
             width: 130px;
             border-radius: 10px;
             margin-top: 10px;
-            font-weight: 300px;
             font-size: 13px;
-            justify-content: center;
-            align-self: auto;
+            margin-right: 10px;
+            text-align: start;
+        }
+            
 
         button {
             width: 130px;
@@ -157,11 +159,12 @@ h1 {
         }
         .erro {
             font-size: 10px;
-       
         }
-       .input-min{
-            margin-left: 20px;
-       }
+       
+        .input-min, .input-max {
+            display: block;
+            margin: 10px auto;
+        }
 
     }
 

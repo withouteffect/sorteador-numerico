@@ -5,7 +5,16 @@ function generateNumber(){
     const result = Math.floor(Math.random() * (max - min +1)) + min;
 
 
-    document.querySelector("#resultado-final").innerHTML = result;
+    if (min >= max){
+        
+        document.querySelector(".erro").innerHTML = "O valor mínimo tem que ser MENOR que o valor máximo. Favor atualizar a página!";
+    }
+
+    else {
+
+        document.querySelector("#resultado-final").innerHTML = result;
+
+    }   
 
 
 }

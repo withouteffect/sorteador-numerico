@@ -94,6 +94,13 @@ h1 {
 
 }
 
+.erro {
+    font-size: 20px;
+    text-align: center;
+    color: rgb(182, 0, 0);
+
+}
+
 @media screen and (max-width: 700px) {
     input {
         height: 30;
@@ -152,13 +159,14 @@ h1 {
             border-radius: 10px;
             margin-top: 10px;
             font-weight: 200px;
-            font-size: 10px;
+            font-size: 9px;
             justify-content: center;
             text-align: center;
         }
 
         .input-min {
-            margin-right: 30px;
+            margin-right: 25px;
+            
         }
 
         button {
@@ -177,4 +185,5 @@ h1 {
             margin-top: 20px;
 
         }
+
     }
